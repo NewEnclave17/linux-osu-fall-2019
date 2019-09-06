@@ -1,2 +1,1 @@
-# linux-osu-fall-2019
-Linux Class Reposiory
+Welcome to the Linux Directory
