@@ -1,0 +1,4 @@
+  172  grep tag
+  173  history | grep tag
+  176  history | grep tag
+  178  history | grep tag > /tmp/git-cheatsheet.txt 
