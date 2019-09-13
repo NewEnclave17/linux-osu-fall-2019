@@ -1,4 +1,35 @@
-  172  grep tag
-  173  history | grep tag
-  176  history | grep tag
+    9  git int
+   10  git status
+   13  git int
+   14  git --help
+   15  git int --help
+   16  git init --help
+   17  git init
+   97  git clone git@github.com:NewEnclave17/linux-osu-fall-2019.git
+  152  history git
+  160  grep git
+  165  history | grep git > git-cheatsheet.txt
+  166  nano git-cheatsheet.txt 
+  171  history |grep git
+  175  history | grep git
   178  history | grep tag > /tmp/git-cheatsheet.txt 
+  186  mv /tmp/git-cheatsheet.txt /home/damien/linux-osu-fall-2019/
+  188  git status
+  190  git status
+  191  git add git-cheatsheet.txt 
+  192  git status
+  193  git commit -m "git-cheatsheet file"
+  194  git push origin master
+  198  cp git-cheatsheet.txt 
+  199  cp git-cheatsheet.txt /damien
+  200  cp git-cheatsheet.txt /home/damien
+  203  nano git-cheatsheet.txt 
+  205  cp git-cheatsheet.txt git-cheatsheet2.txt 
+  206  nano git-cheatsheet2.txt
+  207  git status
+  208  git add git-cheatsheet2.txt 
+  209  git status
+  210  git commit "cheatsheet copy"
+  211  git commit -m "cheatsheet copy"
+  212  git push origin master
+  213  history | grep git > git-cheatsheet.txt
