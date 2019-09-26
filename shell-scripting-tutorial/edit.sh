@@ -1,4 +1,4 @@
-for var in w1 w2........wN
+while command
 do
 	statement
 done

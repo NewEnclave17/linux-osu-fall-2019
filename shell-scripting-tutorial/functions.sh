@@ -1,9 +1,13 @@
 #!/bin/sh
 #Define function
 
-Hello(){
-	echo "Hello Learner"
+number_one() {
+	echo "Alpha online...Over"
+	number_two
 }
 
-#Invoke Function
-Hello
+number_two() {
+	echo "Beta online...Over"
+}
+
+number_one
