@@ -1,0 +1,4 @@
+for var in w1 w2........wN
+do
+	statement
+done
