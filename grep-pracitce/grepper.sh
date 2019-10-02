@@ -1,7 +1,7 @@
 #!/bin/sh
 
-grep -oh "\w*ion* | grep e > ion.txt
-grep -oh "\w*ation\ | grep e > ation.txt
-grep -oh [0-9] | grep e > numbers.txt
-grep -oh \w*ed\w* |grep e > ed.txt
-grep ^[A-Z].*[.!}' | grep e > sentences.txt
+grep -oh "\w*ion" test-data.txt > ion.txt
+grep -oh "\w*ation" test-data.txt > ation.txt
+grep -oh [0-9] test-data.txt > numbers.txt
+grep -oh "\w*ed\w*" test-data.txt > ed.txt
+grep -oh ^[A-Z].*[.!] test-data.txt > sentences.txt
