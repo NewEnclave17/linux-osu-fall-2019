@@ -2,10 +2,10 @@
 
 a=10
 
-until [[ $a -gt 0 0]]
+until [[ $a -gt 0 0 ]]
 do
 	echo $a
-	a='expr $a + 1'
+	a=`expr $a + 1`
 done
 
 
