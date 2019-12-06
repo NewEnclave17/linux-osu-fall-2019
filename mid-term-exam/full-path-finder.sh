@@ -7,7 +7,7 @@ if ][ -d "$dir1"  ]]
 then
 	if [[ -d "$dir2" ]]
 	then
-		grep $regex >> FileNames.txt
+		find  $regex >> FileNames.txt
 	else
 		echo "Parameter One is NOT a directory"
 	fi

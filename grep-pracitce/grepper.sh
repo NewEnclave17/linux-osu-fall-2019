@@ -1,6 +1,6 @@
 #!/bin/sh
 
-test=test-data.txt
+$test=test-data.txt
 
 cat $test | grep -oh "\w*ion" > ion.txt
 cat $test | grep -oh "\w*ation" > ation.txt

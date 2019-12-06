@@ -1,7 +1,7 @@
 #!/bin/bash
 
-dir1=$1
-dir2=$2
+readonly dir1=$1
+readonly dir2=$2
 
 if [[ -d "$dir1" ]]
 then

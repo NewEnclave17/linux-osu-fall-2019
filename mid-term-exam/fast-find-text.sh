@@ -5,7 +5,7 @@ regex=$2
 
 if [[ -d "$dir" ]]
 then
-	grep $regex
+	find  $regex
 else
 	echo "No file has been found"
 fi
