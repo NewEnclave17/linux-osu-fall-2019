@@ -5,4 +5,4 @@ rede=$2
 
 # awk gsub ,,$rede $MOCK_DATA
 
-cat $MOCK_DATA | sed 's/,/$rede/g'
+cat $MOCK_DATA | sed "s/,/$rede/g"
